@@ -934,94 +934,94 @@
                     <h2>Online Booking For Appointments.</h2>
                   </div>
                   <form
-                    method="post"
-                    class="contact-validation-active"
-                    id="contact-form"
-                  >
-                    <div class="row">
-                      <div class="col col-lg-6 col-md-6 col-12">
-                        <div class="form-group">
-                          <label for="name">Full name here*</label>
-                          <input
-                            type="text"
-                            class="form-control"
-                            name="name"
-                            id="name"
-                            placeholder="Ross Ward"
-                          />
-                        </div>
-                      </div>
-                      <div class="col col-lg-6 col-md-6 col-12">
-                        <div class="form-group">
-                          <label for="email">Email here*</label>
-                          <input
-                            type="email"
-                            class="form-control"
-                            name="email"
-                            id="email"
-                            placeholder="info@example.com"
-                          />
-                        </div>
-                      </div>
-                      <div class="col col-lg-6 col-md-6 col-12">
-                        <div class="form-group">
-                          <label for="phone">Contact number*</label>
-                          <input
-                            type="text"
-                            class="form-control"
-                            name="phone"
-                            id="phone"
-                            placeholder="+234 *** *** ***"
-                          />
-                        </div>
-                      </div>
-                      <div class="col col-lg-6 col-md-6 col-12">
-                        <div class="form-group">
-                          <label>Select service*</label>
-                          <select name="subject" class="form-control">
-                            <option disabled="disabled" selected>
-                              Subject
-                            </option>
-                            <option>KITCHEN CLEANING</option>
-                            <option>OFFICE CLEANING</option>
-                            <option>WINDOW CLEANING</option>
-                            <option>FLOOR CLEANING</option>
-                            <option>PLUMBING SERVICE</option>
-                            <option>CAR WASH</option>
-                            <option>CARPET CLEANING</option>
-                            <option>MAID CLEANING</option>
-                            <option>DRY LAUNDRY CLEANING</option>
-                          </select>
-                        </div>
-                      </div>
-                      <div class="col fullwidth col-lg-12">
-                        <div class="form-group">
-                          <label for="note">Short text*</label>
-                          <textarea
-                            class="form-control"
-                            name="note"
-                            id="note"
-                            placeholder="Type your message"
-                          ></textarea>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="submit-area">
-                      <button type="submit" class="theme-btn">
-                        GET AN APPOINMENT
-                      </button>
-                      <div id="loader">
-                        <i class="ti-reload"></i>
-                      </div>
-                    </div>
-                    <div class="clearfix error-handling-messages">
-                      <div id="success">Thank you</div>
-                      <div id="error">
-                        Error occurred while sending email. Please try again
-                        later.
-                      </div>
-                    </div>
-                  </form>
+  method="POST"
+  action="https://formsubmit.co/rajimoshood200482@gmail.com"
+  class="contact-validation-active"
+  id="contact-form"
+>
+  <div class="row">
+    <div class="col col-lg-6 col-md-6 col-12">
+      <div class="form-group">
+        <label for="name">Full name here*</label>
+        <input
+          type="text"
+          class="form-control"
+          name="name"
+          id="name"
+          placeholder="Ross Ward"
+          required
+        />
+      </div>
+    </div>
+    <div class="col col-lg-6 col-md-6 col-12">
+      <div class="form-group">
+        <label for="email">Email here*</label>
+        <input
+          type="email"
+          class="form-control"
+          name="email"
+          id="email"
+          placeholder="info@example.com"
+          required
+        />
+      </div>
+    </div>
+    <div class="col col-lg-6 col-md-6 col-12">
+      <div class="form-group">
+        <label for="phone">Contact number*</label>
+        <input
+          type="text"
+          class="form-control"
+          name="phone"
+          id="phone"
+          placeholder="+234 *** *** ***"
+          required
+        />
+      </div>
+    </div>
+    <div class="col col-lg-6 col-md-6 col-12">
+      <div class="form-group">
+        <label>Select service*</label>
+        <select name="subject" class="form-control" required>
+          <option disabled="disabled" selected>Subject</option>
+          <option>KITCHEN CLEANING</option>
+          <option>OFFICE CLEANING</option>
+          <option>WINDOW CLEANING</option>
+          <option>FLOOR CLEANING</option>
+          <option>PLUMBING SERVICE</option>
+          <option>CAR WASH</option>
+          <option>CARPET CLEANING</option>
+          <option>MAID CLEANING</option>
+          <option>DRY LAUNDRY CLEANING</option>
+        </select>
+      </div>
+    </div>
+    <div class="col fullwidth col-lg-12">
+      <div class="form-group">
+        <label for="note">Short text*</label>
+        <textarea
+          class="form-control"
+          name="note"
+          id="note"
+          placeholder="Type your message"
+          required
+        ></textarea>
+      </div>
+    </div>
+  </div>
+  <div class="submit-area">
+    <button type="submit" class="theme-btn">
+      GET AN APPOINTMENT
+    </button>
+  </div>
+  <div class="clearfix error-handling-messages">
+    <div id="success">Thank you</div>
+    <div id="error">
+      Error occurred while sending email. Please try again later.
+    </div>
+  </div>
+</form>
+
                   <div class="border-style"></div>
                 </div>
               </div>
